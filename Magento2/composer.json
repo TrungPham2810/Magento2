@@ -40,7 +40,8 @@
         "friendsofphp/php-cs-fixer": "~2.2.1",
         "lusitanian/oauth": "~0.8.10",
         "sebastian/phpcpd": "2.0.4",
-        "mgtcommerce/module-mgtdevelopertoolbar": "^1.0"
+        "mgtcommerce/module-mgtdevelopertoolbar": "^1.0",
+        "honl/magento2-templatehints": "^0.2.3"
     },
     "autoload": {
         "psr-4": {
