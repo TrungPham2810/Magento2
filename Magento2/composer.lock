@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ede43244c52918e4a4cc86044dc72596",
+    "content-hash": "56d5f1b2e95e0cf086ec17194e71bc94",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-with-amazon-core-module",
@@ -12283,6 +12283,49 @@
                 "testing"
             ],
             "time": "2018-10-08T14:06:46+00:00"
+        },
+        {
+            "name": "mgtcommerce/module-mgtdevelopertoolbar",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mgtcommerce/Mgt_Developertoolbar.git",
+                "reference": "8df0b64d3e7df5a4e60acaea326f829ef7dd0b5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mgtcommerce/Mgt_Developertoolbar/zipball/8df0b64d3e7df5a4e60acaea326f829ef7dd0b5e",
+                "reference": "8df0b64d3e7df5a4e60acaea326f829ef7dd0b5e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "magento2-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/app/code/Mgt/DeveloperToolbar/registration.php"
+                ],
+                "psr-4": {
+                    "Mgt\\DeveloperToolbar\\": "src/app/code/Mgt/DeveloperToolbar"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "Mgt Developer Toolbar",
+            "homepage": "https://www.mgt-commerce.com",
+            "keywords": [
+                "magento developer toolbar",
+                "mgt developer toolbar"
+            ],
+            "time": "2018-12-07T06:39:32+00:00"
         },
         {
             "name": "moontoast/math",

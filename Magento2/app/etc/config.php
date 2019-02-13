@@ -5,6 +5,7 @@ return [
         'Magento_Directory' => 1,
         'Magento_Eav' => 1,
         'Magento_Theme' => 1,
+        'Inchoo_Helloworld' => 1,
         'Magento_Cms' => 1,
         'Magento_Customer' => 1,
         'Magento_AdminNotification' => 1,
@@ -143,6 +144,7 @@ return [
         'Dotdigitalgroup_Email' => 1,
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistSampleData' => 1,
+        'Mgt_DeveloperToolbar' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1
     ]
