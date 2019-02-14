@@ -148,6 +148,7 @@ return [
         'Magento_WishlistSampleData' => 1,
         'Mgt_DeveloperToolbar' => 1,
         'Temando_Shipping' => 1,
+        'Trung_Currency' => 1,
         'Vertex_Tax' => 1
     ]
 ];
