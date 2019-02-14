@@ -1,1 +1,21 @@
-<h1><?php echo $this->getHelloWorldTxt(); ?></h1>
+<?php echo $this->getHelloWorldTxt(); 
+$block->getCatalogSession()->setMyName('Trung');
+echo $block->getCatalogSession()->getMyName() . '<br />'; // output: Mageplaza
+ 
+$block->getCheckoutSession()->setTestData('ok nuon');
+echo $block->getCheckoutSession()->getTestData() . '<br />'; // output: Hello World
+ 
+$block->getCheckoutSession()->setTestHello('Test Hello Value');
+echo $block->getCheckoutSession()->getTestHello() . '<br />'; // output: Test Hello Value
+
+var_dump($block->getCustomerSession()->getData());
+
+if ($block->getCustomerSession()->isLoggedIn()) {
+    $customerId = $block->getCustomerSession()->getCustomerId();
+    $customerData = $block->getCustomerSession()->getCustomer();
+    echo $customerId . '<br />';
+    echo $customerData->getFirstname() . ' ' . $customerData->getLastname() . '<br />';
+    echo $customerData->getEmail() . '<br />';
+    print_r($block->getCustomerSession()->getCustomer()->getData());
+}
+?>
