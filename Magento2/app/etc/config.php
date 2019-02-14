@@ -5,6 +5,7 @@ return [
         'Magento_Directory' => 1,
         'Magento_Eav' => 1,
         'Magento_Theme' => 1,
+        'Magento_Cron' => 1,
         'Ho_Templatehints' => 1,
         'Inchoo_Helloworld' => 1,
         'Magento_Cms' => 1,
@@ -27,7 +28,7 @@ return [
         'Magento_Security' => 1,
         'Magento_CatalogImportExport' => 1,
         'Magento_Sales' => 1,
-        'Magento_Cron' => 1,
+        'Magento_Email' => 1,
         'Magento_Msrp' => 1,
         'Magento_CatalogInventory' => 1,
         'Magento_UrlRewrite' => 1,
@@ -46,7 +47,7 @@ return [
         'Magento_Tax' => 1,
         'Magento_Contact' => 1,
         'Magento_Cookie' => 1,
-        'Magento_Email' => 1,
+        'EthanYehuda_CronjobManager' => 1,
         'Magento_CurrencySymbol' => 1,
         'Klarna_Core' => 1,
         'Magento_Integration' => 1,
@@ -146,6 +147,7 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistSampleData' => 1,
         'Mgt_DeveloperToolbar' => 1,
+        'Oknuon_Request' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1
     ]

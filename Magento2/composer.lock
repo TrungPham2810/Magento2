@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27909faf3cf41ed34ffb9e5fcbb7e75e",
+    "content-hash": "a0eaec31d8ed82e4f25a6d28ee21d960",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-with-amazon-core-module",
@@ -724,6 +724,40 @@
                 }
             ],
             "description": "dotmailer integration for magento 2"
+        },
+        {
+            "name": "ethanyehuda/magento2-cronjobmanager",
+            "version": "v1.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ethan3600/magento2-CronjobManager.git",
+                "reference": "468c21921180d870ff3311be15c57fc92b28b26f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ethan3600/magento2-CronjobManager/zipball/468c21921180d870ff3311be15c57fc92b28b26f",
+                "reference": "468c21921180d870ff3311be15c57fc92b28b26f",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "~100.3.0-dev|~101.0.0|~102.0.0",
+                "php": "~7.0.0||~7.1.0||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "EthanYehuda\\CronjobManager\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "A module for managing scheduled cron jobs from magento's admin panel",
+            "time": "2019-01-08T03:30:12+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
