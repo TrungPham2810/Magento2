@@ -1,21 +1,27 @@
-<?php echo $this->getHelloWorldTxt(); 
-$block->getCatalogSession()->setMyName('Trung');
-echo $block->getCatalogSession()->getMyName() . '<br />'; // output: Mageplaza
- 
-$block->getCheckoutSession()->setTestData('ok nuon');
-echo $block->getCheckoutSession()->getTestData() . '<br />'; // output: Hello World
- 
-$block->getCheckoutSession()->setTestHello('Test Hello Value');
-echo $block->getCheckoutSession()->getTestHello() . '<br />'; // output: Test Hello Value
+<?php 
+echo $this->getHelloWorldTxt();
+//var_dump($block->getName()) ;
+//var_dump($block->getCustomer()->getEmail()) ;
+//echo $this->getHelloWorldTxt();
+ $block->getCatalogSession()->setMyName('Trung');
+ echo $block->getCatalogSession()->getMyName() . '<br />'; // output: Mageplaza
 
-var_dump($block->getCustomerSession()->getData());
+ $block->getCheckoutSession()->setTestData('ok nuon');
+ echo $block->getCheckoutSession()->getTestData() . '<br />'; // output: Hello World
 
-if ($block->getCustomerSession()->isLoggedIn()) {
-    $customerId = $block->getCustomerSession()->getCustomerId();
-    $customerData = $block->getCustomerSession()->getCustomer();
-    echo $customerId . '<br />';
-    echo $customerData->getFirstname() . ' ' . $customerData->getLastname() . '<br />';
-    echo $customerData->getEmail() . '<br />';
-    print_r($block->getCustomerSession()->getCustomer()->getData());
-}
+ $block->getCheckoutSession()->setTestHello('Test Hello Value');
+ echo $block->getCheckoutSession()->getTestHello() . '<br />'; // output: Test Hello Value
+
+ var_dump($block->getCustomerSession()->getData());
+ // var_dump($block->getCustomer());
+ if ($block->getCustomerSession()->isLoggedIn()) {
+     $customerId = $block->getCustomerSession()->getCustomerId();
+     $customerData = $block->getCustomerSession()->getCustomer();
+     echo $customerId . '<br />';
+     echo $customerData->getFirstname() . ' ' . $customerData->getLastname() . '<br />';
+     echo $customerData->getEmail() . '<br />';
+     print_r($block->getCustomerSession()->getCustomer()->getData());
+ }
+// echo $block->getCheckoutSession()->getQuoteId();
+// print_r($block->getCheckoutSession()->getQuote()->getData());
 ?>

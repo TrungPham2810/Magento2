@@ -147,7 +147,10 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistSampleData' => 1,
         'Mgt_DeveloperToolbar' => 1,
+        'Takeinfo_Correct' => 1,
         'Temando_Shipping' => 1,
+        'Test_Takeinfo' => 1,
+        'Testcookie_Testcookie' => 1,
         'Trung_Currency' => 1,
         'Vertex_Tax' => 1
     ]
