@@ -9,17 +9,15 @@ class Index extends \Magento\Framework\App\Action\Action
     protected $resultPageFactory;
     public function __construct(
         \Magento\Framework\App\Action\Context $context,
-        \Magento\Customer\Model\Session $session,
-//        \Magento\Customer\Helper\Session\CurrentCustomer $currentCustomer,
-        \Magento\Framework\View\Result\PageFactory $resultPageFactory
+        \Magento\Customer\Model\Session $session
+
     )
     {
         parent::__construct($context);
         $this->_session = $session;
-//        $this->currentCustomer = $currentCustomer;
-        $this->resultPageFactory = $resultPageFactory;
-    }
 
+    }
+//
     public function getData(){
         $a = $this->_session->getCustomerData()->getFirstName();
 
@@ -27,22 +25,13 @@ class Index extends \Magento\Framework\App\Action\Action
     }
     public function execute()
     {
-//        var_dump($this->_session->getCustomerData());
+        var_dump($this->_session->getCustomerData()->getEmail());
+        var_dump($this->_session->getCustomerData()->getLastName());
 //        echo '<hr>';
-//        var_dump($this->_session->getCustomerDataObject());
-        echo "FirstName: ".$this->getData()."<br>";
-        echo "LastName: ".$this->_session->getCustomerData()->getLastName()."<br>";
-        echo "Email: ".$this->_session->getCustomerData()->getEmail()."<br>";
 
-
+        var_dump($this->getData());
+        echo 'hihihihi';
         echo '<hr>';
-
-
-
-//        var_dump($this->currentCustomer->getCustomer());
-
-//        return $this->resultPageFactory->create();
-
     }
 
- }
+}
