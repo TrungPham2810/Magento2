@@ -3,5 +3,6 @@
         <referenceContainer name="content">
             <block class="Inchoo\Helloworld\Block\Helloworld" name="helloworld" template="helloworld.phtml" />
         </referenceContainer>
+
     </body>
 </page>
