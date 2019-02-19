@@ -23,7 +23,7 @@ class Index extends Action
 
     public function execute()
     {
-        $this->_registry->register('slct_options','oknuon');
+        $this->_registry->register('slct_options','oknuoretretn');
 
         return $this->resultPageFactory->create();
     }
