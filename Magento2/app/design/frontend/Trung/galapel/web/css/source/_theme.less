@@ -1,11 +1,19 @@
 body {
-    background-color: aquamarine;
+    background-color: #d35400;
 }
-@base_color:#8e44ad;
-@base_light_color:#9b59b6;
-@button-primary__color: @color-white;
-@button-primary__hover__color: @color-white;
+@base_color:#16a085;
+@base_light_color:lighten(@base_color,50%);
+@button-primary__color: #fff;
+@button-primary__hover__color: @base_color;
 @button-primary__background: @base_color;
 @button-primary__hover__background: @base_light_color;
 @button-primary__border: 5px solid @base_color;
 @button-primary__hover__border: 5px solid @base_color;
+.logo {
+    transform: scale(0.8);
+    @media (max-width:768px){
+        margin-left: 26%;
+    }
+}
+.minicart-wrapper .action.showcart:before ,
+.nav-toggle:before,
