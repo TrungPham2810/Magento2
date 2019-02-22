@@ -1,5 +1,5 @@
 body {
-    background-color: #bafff8;
+    background-color: #fff;
 }
 //@base_color: #5ea035;
 //@base_light_color:lighten(@base_color,50%);
@@ -10,21 +10,39 @@ body {
 //@button-primary__border: 5px solid @base_color;
 //@button-primary__hover__border: 5px solid @base_color;
 .logo {
-    transform: scale(0.7);
-    @media (max-width:768px){
-        margin-left: 26%;
+    transform: scale(0.8);
+    margin-left: 27%;
+    @media (min-width:445px){
+      margin-left: 32%;
+    }
+  @media (min-width:576px){
+    margin-left: 37%;
+  }
+    @media (min-width:768px){
+      margin-left: 0%;
     }
 }
+
 .minicart-wrapper .action.showcart:before , .nav-toggle:before, .field.search .label:before
 {
     color: #3a3a3a;
+}
 
-    padding: 5px;
+.minicart-wrapper, .field.search {
+  @media (min-width:640px){
+    margin-top: 10px;
+  }
 }
 
 .field.search {
   position: relative;
 }
+
+.block-search .action.search:before {
+   @media (min-width:768px){
+     margin-top: 10px;
+   }
+ }
 
 .block-search .label {
   position: absolute;
@@ -36,9 +54,13 @@ body {
 //  padding: 5px;
 //}
 //
-//.header.content {
-//    display: flex;
-//}
+.header.content {
+  @media only screen and (max-width: 767px) {
+  padding-left: 0;
+  padding-right: 10px;
+  }
+ }
+
 //.nav-toggle {
 //    order: 1;
 //}
