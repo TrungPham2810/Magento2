@@ -30,9 +30,13 @@ class Index extends \Magento\Framework\App\Action\Action
 {
     public function execute()
     {
-        $layout = $this->_view->getLayout();
-        $block = $layout->createBlock('Magento\Framework\View\Element\Text');
-        $block->setText('Hello world from Nam currency !');
-        $this->getResponse()->appendBody($block->toHtml());
+//        $layout = $this->_view->getLayout();
+//        $block = $layout->createBlock('Magento\Framework\View\Element\Text');
+//        $block->setText('Hello world from Nam currency !');
+//        $this->getResponse()->appendBody($block->toHtml());
+        $textDisplay = new \Magento\Framework\DataObject(array('text' => 'ok chua'));
+        $this->_eventManager->dispatch('testcookie_testcookie_display_text', ['mp_text' => $textDisplay]);
+        echo $textDisplay->getText();
+        exit;
     }
 }

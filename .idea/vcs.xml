@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Magento2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/code/MagentoHackaton" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/code/magento2-plugin-visualization" vcs="Git" />
   </component>
 </project>
