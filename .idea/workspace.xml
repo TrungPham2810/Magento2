@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f87b849f-b106-46ad-9020-3ae7bab83226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/code/Inchoo/Helloworld/Plugin/AfterHelloworld.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Inchoo/Helloworld/etc/di.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Trung/Currency/Plugin/AfterCurrency.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Trung/Currency/etc/di.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/code/Trung/Currency/Block/Currency.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Trung/Currency/Block/Currency.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/design/frontend/Lumaextend/theme/registration.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/design/frontend/Lumaextend/theme/theme.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/design/frontend/OrangeCo/orange/theme.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/design/frontend/Solwin/freego/web/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/frontend/Solwin/freego/web/images/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Inchoo/Helloworld/Plugin/AfterHelloworld.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Inchoo/Helloworld/Plugin/AfterHelloworld.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Inchoo/Helloworld/etc/di.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Inchoo/Helloworld/etc/di.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Trung/Currency/Plugin/AfterCurrency.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Trung/Currency/Plugin/AfterCurrency.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Trung/Currency/etc/di.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Trung/Currency/etc/di.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Trung/Currency/view/frontend/templates/currency.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Trung/Currency/view/frontend/templates/currency.phtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/Block/Currency.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -37,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/vendor/magento/framework/View/Element/Template.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-184">
-              <caret line="155" column="7" lean-forward="true" selection-start-line="155" selection-start-column="7" selection-end-line="155" selection-end-column="7" />
+              <caret line="155" column="7" selection-start-line="155" selection-start-column="7" selection-end-line="155" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -46,16 +42,46 @@
         <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/etc/di.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/Plugin/AfterCurrency.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/view/frontend/templates/currency.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/Controller/Index/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <folding>
+                <element signature="e#50#90#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/Plugin/AfterCurrency.php">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="270">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -101,6 +127,7 @@
         <option value="$PROJECT_DIR$/app/code/Inchoo/Helloworld/etc/di.xml" />
         <option value="$PROJECT_DIR$/app/code/Trung/Currency/etc/di.xml" />
         <option value="$PROJECT_DIR$/app/code/Trung/Currency/Block/Currency.php" />
+        <option value="$PROJECT_DIR$/app/code/Trung/Currency/view/frontend/templates/currency.phtml" />
         <option value="$PROJECT_DIR$/app/code/Trung/Currency/Plugin/AfterCurrency.php" />
       </list>
     </option>
@@ -111,11 +138,11 @@
       <server host="magento2.local" id="ec373638-d618-466b-9386-0f7f5dc6c111" name="magento2.local" />
     </servers>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="334" />
-    <option name="y" value="96" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="256" />
+    <option name="y" value="132" />
     <option name="width" value="1390" />
-    <option name="height" value="962" />
+    <option name="height" value="824" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -172,7 +199,7 @@
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="Trung" type="462c0819:PsiDirectoryNode" />
               <item name="Currency" type="462c0819:PsiDirectoryNode" />
-              <item name="etc" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
@@ -181,7 +208,17 @@
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="Trung" type="462c0819:PsiDirectoryNode" />
               <item name="Currency" type="462c0819:PsiDirectoryNode" />
-              <item name="Plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Trung" type="462c0819:PsiDirectoryNode" />
+              <item name="Currency" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
@@ -229,85 +266,6 @@
               <item name="Magento2" type="462c0819:PsiDirectoryNode" />
               <item name="var" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-theme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-              <item name="Adminhtml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-              <item name="Adminhtml" type="462c0819:PsiDirectoryNode" />
-              <item name="Design" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-              <item name="Adminhtml" type="462c0819:PsiDirectoryNode" />
-              <item name="Design" type="462c0819:PsiDirectoryNode" />
-              <item name="Config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="theme-frontend-luma" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="theme-frontend-luma" type="462c0819:PsiDirectoryNode" />
-              <item name="etc" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -316,6 +274,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Constants" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -341,6 +300,24 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="PHP Script.Index.php">
+    <configuration name="Index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Magento2/app/code/Trung/Currency/Controller/Index/Index.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="AfterCurrency.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/code/Trung/Currency/Plugin/AfterCurrency.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/code/Trung/Currency/Controller/Index/Index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.Index.php" />
+        <item itemvalue="JavaScript Debug.Index.php" />
+        <item itemvalue="PHP Script.AfterCurrency.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -356,12 +333,12 @@
       <workItem from="1550817324802" duration="2768000" />
       <workItem from="1550827492637" duration="2668000" />
       <workItem from="1551693200591" duration="2446000" />
-      <workItem from="1551750103206" duration="13659000" />
+      <workItem from="1551750103206" duration="16251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28540000" />
+    <option name="totallyTimeSpent" value="31132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,16 +350,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1004" extended-state="6" />
+    <frame x="256" y="132" width="1390" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19637139" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27380952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42016807" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41942856" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32914287" />
@@ -408,6 +385,36 @@
           <line>60</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/Trung/Currency/Plugin/AfterCurrency.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/Trung/Currency/view/frontend/templates/currency.phtml</url>
+          <line>3</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/Trung/Currency/view/frontend/templates/currency.phtml</url>
+          <line>1</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/Trung/Currency/view/frontend/templates/currency.phtml</url>
+          <line>2</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/Trung/Currency/Controller/Index/Index.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>35</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -426,13 +433,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/layout/default_head_blocks.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/Controller/Index/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/etc/module.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -563,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/Controller/Adminhtml/Design/Config/Save.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -690,13 +683,6 @@
         <state relative-caret-position="-2295" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/view/frontend/templates/currency.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Inchoo/Helloworld/Plugin/AfterHelloworld.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -718,31 +704,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/View/Element/Template.php">
+    <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/Block/Currency.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="155" column="7" lean-forward="true" selection-start-line="155" selection-start-column="7" selection-end-line="155" selection-end-column="7" />
+        <state relative-caret-position="390">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/etc/di.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/Block/Currency.php">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/View/Element/Template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="-184">
+          <caret line="155" column="7" selection-start-line="155" selection-start-column="7" selection-end-line="155" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/Plugin/AfterCurrency.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/view/frontend/templates/currency.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/Controller/Index/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#50#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
