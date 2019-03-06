@@ -1,0 +1,5 @@
+<config>
+    <type name="Trung\Currency\Block\Currency">
+        <plugin name="Trung_Currency_Block_Currency" type="{Trung\Currency\Plugin\Currency2}" sortOrder="1" disabled="false" />
+    </type>
+</config>
