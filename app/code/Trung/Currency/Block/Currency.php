@@ -23,9 +23,9 @@ class Currency extends Template
         return $this->_registry->registry('slct_options');
     }
     
-    public function helloWorld()
+    public function helloWorld($ok = "ok nuon hihi")
     {
-        return 'ok nuon hihi';
+        return $ok;
     }
 
     public function getInfo()
