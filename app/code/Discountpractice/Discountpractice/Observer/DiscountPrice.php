@@ -19,10 +19,10 @@ class DiscountPrice implements ObserverInterface
         if($this->_session->isLoggedIn()) {
             $collection = $observer->getEvent()->getCollection();
             foreach ($collection as $pro){
-//                $a = $pro->getPrice('final_price');
-//                $a = $a/2;
-//                $pro->setOriginalCustomPrice($a);
-                $pro->setName('vvvvvvvvvvvvvvvvvvvvv');
+                $a = $pro->getPrice('final_price');
+                $a = $a/2;
+                $pro->setOriginalCustomPrice($a);
+                $pro->setName($a);
             }
             return $this;
         }
@@ -31,8 +31,8 @@ class DiscountPrice implements ObserverInterface
         foreach ($collection as $pro){
            $a = $pro->getPrice('final_price');
            $a = $a/2;
-            $pro->setOriginalCustomPrice($a);
-            $pro->setName('xxxxxxxxxxx');
+            $pro->setPrice($a);
+//            $pro->setName($a);
         }
         return $this;
 
