@@ -7,7 +7,7 @@ use \Psr\Log\LoggerInterface;
 use Magento\Framework\Event\Observer;
 
 
-class CustomPrice implements ObserverInterface
+class LogAction implements ObserverInterface
 {
 //    protected $_session;
     protected $logger;
