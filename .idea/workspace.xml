@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f87b849f-b106-46ad-9020-3ae7bab83226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/Plugin/Practiceplugin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/etc/di.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/etc/frontend/routes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/etc/module.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/registration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/view/frontend/layout/default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/view/frontend/templates/absolute_footer.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/Observer/CustomPrice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/etc/frontend/events.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/etc/frontend/routes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/etc/module.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/registration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/code/Trung/Currency/Plugin/AfterCurrency.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Trung/Currency/Plugin/AfterCurrency.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/code/Trung/Currency/etc/di.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Trung/Currency/etc/di.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,67 +21,60 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/Block/Html/Footer.php">
+        <entry file="file://$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/etc/frontend/events.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/layout/default.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="94" column="52" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/etc/di.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Takeinfo/Correct/Controller/Index/Index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Session.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="380" column="20" selection-start-line="380" selection-start-column="20" selection-end-line="380" selection-end-column="32" />
+            <state relative-caret-position="105">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/Plugin/Practiceplugin.php">
+        <entry file="file://$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/Observer/CustomPrice.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="390">
+              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+              <folding>
+                <element signature="e#61#107#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/view/frontend/templates/absolute_footer.phtml">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/framework/DataObject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="-45">
+              <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/Plugin/Practiceplugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Event/Observer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-965">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Pricing/Render.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="643">
+              <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
               <folding>
-                <element signature="e#121#182#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#li#0;n#!!top" expanded="true" />
+                <element signature="e#141#175#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,6 +99,7 @@
       <find>absolute_footer.phtml</find>
       <find>getMiscellaneousHtml</find>
       <find>isLoggedIn</find>
+      <find>class=&quot;price&quot;</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/design/frontend/Solwin/freego/web/css/source</dir>
@@ -153,6 +143,12 @@
         <option value="$PROJECT_DIR$/app/code/Trung/Currency/Plugin/AfterCurrency.php" />
         <option value="$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/view/frontend/templates/absolute_footer.phtml" />
         <option value="$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/Plugin/Practiceplugin.php" />
+        <option value="$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/registration.php" />
+        <option value="$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/etc/module.xml" />
+        <option value="$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/etc/frontend/routes.xml" />
+        <option value="$PROJECT_DIR$/vendor/magento/module-catalog/Pricing/Render.php" />
+        <option value="$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/etc/frontend/events.xml" />
+        <option value="$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/Observer/CustomPrice.php" />
       </list>
     </option>
   </component>
@@ -173,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,42 +193,23 @@
               <item name="Magento2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Takeinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="Practiceobserver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Magento2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Takeinfo" type="462c0819:PsiDirectoryNode" />
-              <item name="Correct" type="462c0819:PsiDirectoryNode" />
+              <item name="Practiceobserver" type="462c0819:PsiDirectoryNode" />
+              <item name="Practiceobserver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Magento2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Takeinfo" type="462c0819:PsiDirectoryNode" />
-              <item name="Correct" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Takeinfo" type="462c0819:PsiDirectoryNode" />
-              <item name="Correct" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-              <item name="Index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Takeinfo" type="462c0819:PsiDirectoryNode" />
-              <item name="Correct" type="462c0819:PsiDirectoryNode" />
+              <item name="Practiceobserver" type="462c0819:PsiDirectoryNode" />
+              <item name="Practiceobserver" type="462c0819:PsiDirectoryNode" />
               <item name="etc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -239,42 +217,34 @@
               <item name="Magento2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Trung" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Trung" type="462c0819:PsiDirectoryNode" />
-              <item name="Currency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Trung" type="462c0819:PsiDirectoryNode" />
-              <item name="Currency" type="462c0819:PsiDirectoryNode" />
+              <item name="Practiceobserver" type="462c0819:PsiDirectoryNode" />
+              <item name="Practiceobserver" type="462c0819:PsiDirectoryNode" />
               <item name="etc" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Magento2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Trung" type="462c0819:PsiDirectoryNode" />
-              <item name="Currency" type="462c0819:PsiDirectoryNode" />
+              <item name="Practiceplugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Practiceplugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Practiceplugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Practiceplugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Practiceplugin" type="462c0819:PsiDirectoryNode" />
               <item name="Plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Magento2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Trung" type="462c0819:PsiDirectoryNode" />
-              <item name="Currency" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Magento2" type="b2602c69:ProjectViewProjectNode" />
@@ -336,7 +306,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -402,12 +371,13 @@
       <workItem from="1551693200591" duration="2446000" />
       <workItem from="1551750103206" duration="38221000" />
       <workItem from="1551928783322" duration="191000" />
-      <workItem from="1551929209690" duration="3269000" />
+      <workItem from="1551929209690" duration="6126000" />
+      <workItem from="1551939458544" duration="7611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56562000" />
+    <option name="totallyTimeSpent" value="67030000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,7 +392,7 @@
     <frame x="0" y="25" width="1920" height="1004" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19103523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19316968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -482,55 +452,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/etc/di.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="393" column="71" selection-start-line="393" selection-start-column="71" selection-end-line="393" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/Model/Page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-945">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/View/Design/ThemeInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-470">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/Model/Theme.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5405">
-          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/etc/adminhtml/di.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/Block/Adminhtml/Page/Grid/Renderer/Action/UrlBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Acl/Data/Cache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/MagentoHackaton/registration.php" />
     <entry file="file://$PROJECT_DIR$/app/code/MagentoHackaton/etc/module.xml" />
     <entry file="file://$PROJECT_DIR$/app/code/MagentoHackaton/PluginVisualization/Console/Command/VisualizeCommand.php">
@@ -582,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Pricing/Render.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Testcookie/Testcookie/Controller/Index/Index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -600,13 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/DataObject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="133" column="41" selection-start-line="133" selection-start-column="41" selection-end-line="133" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -628,13 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" column="139" selection-start-line="13" selection-start-column="139" selection-end-line="13" selection-end-column="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Event/Observer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -673,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/etc/module.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Inchoo/Helloworld/etc/di.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -691,20 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-225">
           <caret line="341" column="50" selection-start-line="341" selection-start-column="50" selection-end-line="341" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/etc/frontend/routes.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -757,17 +636,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Takeinfo/Correct/Controller/Index/Index.php">
+    <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/Plugin/AfterCurrency2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="450">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/etc/di.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/view/frontend/templates/absolute_footer.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#121#182#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -785,10 +668,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Trung/Currency/Plugin/AfterCurrency2.php">
+    <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/etc/di.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Takeinfo/Correct/Controller/Index/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -799,21 +689,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/view/frontend/templates/absolute_footer.phtml">
+    <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/registration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="90">
+          <caret line="6" column="2" lean-forward="true" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/etc/module.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" lean-forward="true" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/etc/frontend/routes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="true" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/etc/module.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/etc/frontend/routes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Pricing/Render/PriceBox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/View/Element/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3544">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Pricing/Render.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
           <folding>
-            <element signature="e#121#182#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="e#141#175#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/DataObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Practiceplugin/Practiceplugin/Plugin/Practiceplugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/etc/frontend/events.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Event/Observer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-965">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Practiceobserver/Practiceobserver/Observer/CustomPrice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#61#107#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
