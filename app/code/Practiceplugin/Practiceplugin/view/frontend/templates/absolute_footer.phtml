@@ -1,0 +1,17 @@
+
+<?php //echo "<strong> First Name: ".$block ->getMiscellaneousHtml()."</strong>";?>
+
+
+<ul style="width: 100%; text-align: center;list-style-type: none">
+<?php
+$b = $block ->getMiscellaneousHtml();
+if (gettype($b) === "array" ) {
+    echo "<li> <h2 style='font-weight: bold'>Info Customer</h2></li>";
+    echo "<li> First Name: ".$b[0]."</li>";
+    echo "<li> Last Name: ".$b[1]."</li>";
+    echo "<li> Email Customer: ".$b[2]."</li>";
+} else {
+    echo "<li>".$b."</li>";
+}
+;?>
+</ul>

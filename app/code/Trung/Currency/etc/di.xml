@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
 <type name="Trung\Currency\Block\Currency">
-    <plugin name="AfterCurrency" type="Trung\Currency\Plugin\AfterCurrency" sortOrder="11" disabled="false" />
+    <plugin name="AfterCurrency" type="Trung\Currency\Plugin\AfterCurrency" sortOrder="55" disabled="false" />
     <plugin name="AfterCurrency2" type="Trung\Currency\Plugin\AfterCurrency2" sortOrder="15" disabled="false" />
     <arguments>
         <argument name="object1" xsi:type="string">New value of object1</argument>

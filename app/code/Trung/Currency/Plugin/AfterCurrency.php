@@ -2,6 +2,7 @@
 namespace Trung\Currency\Plugin;
 class AfterCurrency
 {
+    public $one= 'one test';
     public function afterGetRegisterData($subject, $result)
     {
 //        return $this->getTemplate();
@@ -14,7 +15,7 @@ class AfterCurrency
     public function beforeHelloWorld($subject, $ok = "ok nuon hihi")
     {
         $a = $subject->getTemplate();
-        return [$a];
+        return [$this -> one];
 
     }
 
