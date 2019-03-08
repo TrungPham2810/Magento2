@@ -25,18 +25,6 @@ class CatalogLoad implements ObserverInterface
                 $pro->setOriginalCustomPrice($a);
                 $pro->setName($a);
             }
-//            return $this;
         }
-
-//            $collection = $observer->getEvent()->getCollection();
-//            foreach ($collection as $pro){
-//                $a = $pro->getPrice('final_price');
-//                $a = $a/2;
-//                $pro->setCustomPrice($a);
-//                $pro->setPrice($a);
-//                $pro->setOriginalCustomPrice($a);
-////            $pro->setName('xxxxxxxxx');
-//            }
-//            return $this;
     }
 }
