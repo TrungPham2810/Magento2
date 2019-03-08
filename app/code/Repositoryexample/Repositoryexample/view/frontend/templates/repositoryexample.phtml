@@ -1,0 +1,12 @@
+<?php
+$id = 10;
+$sku = '24-MB03';
+$_product = $block->getProductById($id);
+$_product2 = $block->getProductBySku($sku);
+echo "take product use id: ".$_product->getSku();
+echo '<br />';
+echo "take product use id: ".$_product->getName();
+echo '<br />';
+echo "take product id use SKU: ".$_product2->getEntityId();
+echo '<br />';
+echo "take product name use SKU: ".$_product2->getName();

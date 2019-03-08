@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e9dc51b2fd166f17ec02006438d7c731",
+    "content-hash": "488218603ad9670661a91c911db59282",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-with-amazon-core-module",
